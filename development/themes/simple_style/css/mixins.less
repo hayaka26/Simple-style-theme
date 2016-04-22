@@ -1,0 +1,24 @@
+// フォントサイズ計算
+.fontsize(@size: 16, @base: 14) {
+	font-size: (@size / @base) * 1em;
+}
+.make-heading(@family, @size, @weight, @color, @transform: none) {
+	font-family: @family;
+	font-size: @size;
+	font-weight: @weight;
+	color: @color;
+	line-height: @line-height-base;
+	text-transform: @transform;
+}
+.border-radius(@radius) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	border-radius: @radius;
+	-ms-border-radius: @radius;
+}
+.box-shadow(@shadow) {
+	-webkit-box-shadow: @shadow;
+	-moz-box-shadow: @shadow;
+	box-shadow: @shadow;
+}
+

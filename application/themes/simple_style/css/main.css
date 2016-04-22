@@ -1,0 +1,90 @@
+div.ccm-page {
+  background-color: #ffffff;
+  background-image: url("../images/backimg.gif");
+  font-family: '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  color: #000000;
+}
+div.ccm-page a {
+  color: #36a7a0;
+}
+div.ccm-page a:hover {
+  color: #357c77;
+  text-decoration: none;
+}
+div.ccm-page .header-wrap {
+  background-color: #f0f0f0;
+  color: #222222;
+}
+div.ccm-page .header-wrap a {
+  color: #36a7a0;
+}
+div.ccm-page .header-wrap a:hover {
+  color: #357c77;
+}
+div.ccm-page .header-wrap .logo {
+  font-size: 2.5em;
+  font-weight: 700;
+  padding: 10px;
+}
+div.ccm-page .global-wrap {
+  background-color: #cccccc;
+  color: #000000;
+}
+div.ccm-page .global-wrap a {
+  color: #36a7a0;
+}
+div.ccm-page .global-wrap a:hover {
+  color: #357c77;
+}
+div.ccm-page .global-wrap .global-nav nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+div.ccm-page .global-wrap .global-nav nav ul a {
+  padding: 10px;
+  display: block;
+}
+div.ccm-page .global-wrap .global-nav nav li {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: inline-block;
+}
+div.ccm-page .global-wrap .global-nav nav li:hover ul {
+  opacity: 1;
+  top: 30px;
+  visibility: visible;
+}
+div.ccm-page .global-wrap .global-nav nav li ul {
+  cursor: pointer;
+  padding: 2px;
+  float: left;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 20px;
+  visibility: hidden;
+  width: 200px;
+  background-color: #f0f0f0;
+  z-index: 99;
+  border: 1px solid #fff;
+}
+div.ccm-page .global-wrap .global-nav nav li ul li {
+  float: none;
+  width: 100%;
+}
+div.ccm-page .footer-wrap {
+  background-color: #cccccc;
+  color: #000000;
+}
+div.ccm-page .footer-wrap a {
+  color: #36a7a0;
+}
+div.ccm-page .footer-wrap a:hover {
+  color: #357c77;
+}
