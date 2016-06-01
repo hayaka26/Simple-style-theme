@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<styles version="1.0">
+	<set name="Full Page">
+		<style name="Page Background Color" variable="page-background" type="color" />
+		<style name="Page Background Image" variable="page-background" type="image" />
+		<style name="Text" variable="body" type="type" />
+		<style name="Link Color" variable="body-link" type="color" />
+		<style name="Link Hover Color" variable="body-link-hover" type="color" />
+	</set>
+	<set name="Header">
+		<style name="Background Color" variable="header-background" type="color" />
+		<style name="Text" variable="header" type="type" />
+		<style name="Link Color" variable="header-link" type="color" />
+		<style name="Link Hover Color" variable="header-link-hover" type="color" />
+	</set>
+	<set name="Footer">
+		<style name="Background Color" variable="footer-background" type="color" />
+		<style name="Text" variable="footer" type="type" />
+		<style name="Link Color" variable="footer-link" type="color" />
+		<style name="Link Hover Color" variable="footer-link-hover" type="color" />
+	</set>
+</styles>
